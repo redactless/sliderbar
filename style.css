@@ -30,7 +30,8 @@ margin: 0 50px;
   height: 14px;
   border-radius: 10px;
   text-align: left;
-  margin: 45px 0 10px 60%;
+  /* CHANGE THIS MARGIN PERCENT TO ADJUST LOWER LIMIT */
+  margin: 45px 0 10px 27%;
 }
 
 #slider > div {
