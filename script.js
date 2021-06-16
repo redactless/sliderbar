@@ -12,7 +12,7 @@ var val1 = document.getElementById("val1");
 var val2 = document.getElementById("val2");
 var val3 = document.getElementById("val3");
 
-var c1=4.8, c2=4.8, c3=2.4;
+var c1=4.8, c2=4.8, c3=2.4, profit=12;
 
 // on sliding the first slider
 slider1.oninput = function() {
@@ -57,14 +57,14 @@ slider1.oninput = function() {
     }
     children[7].style.left=value-1+'%';
     val1.innerText = "$" + Number(((this.value / 100) * 12)).toFixed(2);
-    c1 = Number(((this.value / 100) * 12).toFixed(2));
+    c1 = Number(((this.value / 100) * profit).toFixed(2));
     changeVal2();
 }
 
 // determine the value 
 function changeVal2(){
-    val2.innerHTML = "$" + (((12 -( c1 + c3))).toFixed(2));
-    c2 =  (((12 -( c1 + c3))).toFixed(2));
+    val2.innerHTML = "$" + (((profit -( c1 + c3))).toFixed(2));
+    c2 =  (((profit -( c1 + c3))).toFixed(2));
     number1.value= c1;
     number3.value= c3;
     number2.value= c2;
@@ -106,7 +106,7 @@ slider2.oninput = function() {
         val3.style.width = "20%"
     }
     children[9].style.left=value+1+'%';
-    c3 = Number(((12 - (this.value / 100) * 12)).toFixed(2));
-    val3.innerText = "$" + Number(((12 - (this.value / 100) * 12))).toFixed(2);
+    c3 = Number(((profit - (this.value / 100) * profit)).toFixed(2));
+    val3.innerText = "$" + Number(((profit - (this.value / 100) * profit))).toFixed(2);
     changeVal2();
     }
