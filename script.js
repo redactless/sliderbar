@@ -12,7 +12,7 @@ var val1 = document.getElementById("val1");
 var val2 = document.getElementById("val2");
 var val3 = document.getElementById("val3");
 
-var c1=4.8, c2=4.8, c3=2.4;
+var c1=6, c2=7, c3=9;
 
 // on sliding the first slider
 slider1.oninput = function() {
