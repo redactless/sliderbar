@@ -78,11 +78,11 @@ document.getElementById("sliderForm").onsubmit = function(e){
     number2.value= c2;
     //alert("value1: $" + this.elements.number1.value + "   value2: $" + this.elements.number2.value+"   value3: $" + this.elements.number3.value)
     
-    return c1
-    return c2
-    return c3
+    return c1;
+    return c2;
+    return c3;
     
-    $('c1-value').text(c1)
+    $('c1-value').text(c1);
 }
 
 // on sliding the second slider
