@@ -102,11 +102,10 @@ margin: 0 50px;
   cursor: pointer;
   /* box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4); */
   background-color: #FFF;
+  border-style: solid;
   border-radius: 50%;
-  outline-style: solid;
-  outline-color: #000;
-  outline-width: 10px;
-  outline-radius: 16px;
+  border-color: #000;
+  border-width: 5px;
 }
 
 #slider > input[type=range] {
