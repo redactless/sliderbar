@@ -105,7 +105,8 @@ margin: 0 50px;
   border-radius: 50%;
   outline-style: solid;
   outline-color: #000;
-  outline-width: 3px;
+  outline-width: 10px;
+  outline-radius: 16px;
 }
 
 #slider > input[type=range] {
