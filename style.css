@@ -8,6 +8,9 @@ margin: 0 50px;
   position: relative;
   top: 23px;
   margin-left: 60%;
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .values span{
@@ -18,6 +21,9 @@ margin: 0 50px;
 /* values below the slider */
 .fixed-values{
   position: relative;
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .fixed-values span{
