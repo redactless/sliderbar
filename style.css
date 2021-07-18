@@ -100,10 +100,12 @@ margin: 0 50px;
   text-align: left;
   margin-left: -11px;
   cursor: pointer;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4); */
   background-color: #FFF;
   border-radius: 50%;
-  outline: none;
+  outline-style: solid;
+  outline-color: #000;
+  outline-width: 3px;
 }
 
 #slider > input[type=range] {
