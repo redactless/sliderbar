@@ -53,7 +53,7 @@ margin: 0 50px;
   left: 0;
   height: 14px;
   border-radius: 10px;
-  background-color: #ec407a;
+  background-color: #A01823; /* Designer Colour */
   /* margin: 0 7px; */
 }
 
@@ -63,7 +63,7 @@ margin: 0 50px;
   right: 0;
   height: 14px;
   border-radius: 10px;
-  background-color:  #42a5f5;
+  background-color:  #1F5673; /* Company Colour */
   /* margin: 0 7px; */
 }
 
@@ -93,7 +93,7 @@ margin: 0 50px;
   left: 0;
   height: 14px;
   border-radius: 14px;
-  background-color: #9ccc65;
+  background-color: #7BAE7F; /* Earth Colour */
 }
 
 /* pointers on slider */
