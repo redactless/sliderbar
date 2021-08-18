@@ -107,7 +107,8 @@ margin: 0 50px;
   margin-left: -11px;
   cursor: pointer;
   /* box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4); */
-  background-color: #FFF;
+  /* background-color: #FFF; */
+  background-image: url(https://github.com/redactless/sliderbar/raw/main/Two%20Way%20Arrow.png)
   border-style: solid;
   border-radius: 50%;
   border-color: #000;
