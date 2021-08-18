@@ -110,6 +110,7 @@ margin: 0 50px;
   background-image: url(https://github.com/redactless/sliderbar/raw/main/Two%20Way%20Arrow.png);
   background-repeat: no-repeat;
   background-size: 28px 28px;
+  background-position: center;
   background-color: #FFF;
   border-style: solid;
   border-radius: 50%;
