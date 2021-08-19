@@ -259,7 +259,7 @@ form button:hover{
   #slider > div > #thumb {
     height: 28px;
     width: 28px;
-    border-radius: 0%;
+    border-radius: 50%;
   }
 }
 
@@ -311,8 +311,12 @@ form button:hover{
 
 @media (max-width: 475px){
   body {
-    margin: 0 10px;
+    /* margin: 0 10px; */
     /* overflow: hidden; */
+  }
+  
+  .fixed-values span{
+   font-size: 13px; 
   }
 
   form button {
